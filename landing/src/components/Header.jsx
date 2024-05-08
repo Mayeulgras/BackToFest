@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaXing, FaArrowDown } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaArrowDown } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import bannerImage from '../images/Ecogest.png';
 
@@ -9,19 +9,18 @@ const Header = () => {
             <div style={{display: 'flex', alignItems: 'center', marginTop: '30px'}}>
                 <FaFacebook style={{marginRight: '10px', fontSize: '2vw'}} />
                 <FaInstagram style={{marginRight: '10px', fontSize: '2vw'}} />
-                <FaXing style={{fontSize: '2vw'}} />
+                <FaLinkedin style={{fontSize: '2vw'}} />
             </div>
             <div style={{display: 'flex', justifyContent: 'flex-start', flex: 1}}>
-                <img src={bannerImage} alt="Bannière" style={{width: '40%', marginLeft: '33%', marginTop: '30px'}} />
+                <img src={bannerImage} alt="Bannière" style={{width: '40%', marginLeft: '34.5%', marginTop: '30px'}} />
             </div>
             <div style={{display: 'flex', alignItems: 'center', marginTop: '30px'}}>
                 <Link to="footer" smooth={true} duration={1000}>
                     <FaArrowDown style={{fontSize: '2vw', marginRight: '10px'}} />
-                    <span style={{fontWeight: 'bold'}}>Nous contacter</span>
+                    <span style={{fontSize: '1.3vw'}}>Nous contacter</span>
                 </Link>
             </div>
         </header>
     );
 };
-
 export default Header;
