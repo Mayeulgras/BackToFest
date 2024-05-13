@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Bouton = () => {
     const [hover, setHover] = useState(false);
@@ -20,9 +21,11 @@ const Bouton = () => {
 
     return (
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '30vh'}}>
-            <button style={style} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
-                Nous contacter
-            </button>
+            <Link to="/contacter">
+                <button style={style} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
+                    Nous contacter
+                </button>
+            </Link>
         </div>
     );
 };

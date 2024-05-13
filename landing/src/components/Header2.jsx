@@ -4,7 +4,7 @@ import { Link as ScrollLink } from 'react-scroll';
 import bannerImage from '../images/Ecogest.png';
 import { Link, useLocation } from 'react-router-dom';
 
-const Header = () => {
+const Header2 = () => {
     const location = useLocation();
 
     return (
@@ -16,17 +16,11 @@ const Header = () => {
             </div>
             <div style={{display: 'flex', justifyContent: 'center', flex: 1}}>
                 <Link to="/">
-                    <img src={bannerImage} alt="Bannière" style={{width: '30vw', maxWidth: '600px', marginTop: '30px', display: 'flex', justifyContent: 'center'}} />
+                    <img src={bannerImage} alt="Bannière" style={{width: '30vw', maxWidth: '600px', marginTop: '30px', marginLeft: '-17.8%'}} />
                 </Link>
             </div>
-                <div style={{display: 'flex', alignItems: 'center', marginTop: '30px'}}>
-                    <ScrollLink to="footer" smooth={false} duration={350}>
-                        <FaArrowDown style={{fontSize: '1.3vw', marginRight: '10px'}} />
-                        <span style={{fontSize: '1.3vw'}}>Nous contacter</span>
-                    </ScrollLink>
-                </div>
         </header>
     );
 };
 
-export default Header;
+export default Header2;
