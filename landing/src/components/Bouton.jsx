@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useMediaQuery } from 'react-responsive';
 
+const Bouton = () => {
+    const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 1224 });
 const styles = {
     container: {
         display: 'flex',
@@ -12,7 +15,7 @@ const styles = {
         backgroundColor: hover ? '#2E74DA' : '#1F58AA',
         color: 'white',
         padding: '10px 20px',
-        fontSize: '1.5vw',
+        fontSize: isDesktopOrLaptop ? '1.5vw' : '3vw',
         borderRadius: '15px',
         boxShadow: 'none',
         border: 'none',
@@ -20,7 +23,7 @@ const styles = {
     }),
 };
 
-const Bouton = () => {
+
     const [hover, setHover] = useState(false);
 
     const toggleHover = () => {

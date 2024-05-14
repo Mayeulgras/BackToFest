@@ -33,7 +33,7 @@ const styles = {
         marginBottom: '2%',
     },
     image: {
-        width: '10%',
+        width: isDesktopOrLaptop ? '10%' : '14%',
     },
 };
 

@@ -1,8 +1,10 @@
 import { Form, Button } from 'react-bootstrap';
 import React, { useEffect, useState } from 'react';
+import { useMediaQuery } from 'react-responsive';
+
 
 const Devis = () => {
-
+const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 1224 });
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);

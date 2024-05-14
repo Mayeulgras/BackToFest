@@ -1,7 +1,7 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 import BarImage from '../images/bar.png'; // Assurez-vous que le chemin vers l'image est correct
-import backgorundimg from '../images/background.svg';
+
 
 
 const Av4 = () => {

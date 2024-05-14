@@ -1,5 +1,9 @@
+import { useMediaQuery } from 'react-responsive';
 import React from 'react';
 
+
+const Contact = () => {
+    const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 1224 });
 const styles = {
     container: {
         display: 'flex',
@@ -12,14 +16,14 @@ const styles = {
         padding: '0 10%',
     },
     title: {
-        fontSize: '3vw',
+        fontSize: isDesktopOrLaptop ? '3vw' : '5vw',
     },
     text: {
-        fontSize: '1.5vw',
+        fontSize: isDesktopOrLaptop ? '1.5vw' : '3vw',
     },
 };
 
-const Contact = () => {
+
     return (
         <div style={styles.container}>
             <h1 style={styles.title}>Contactez nous !</h1>
