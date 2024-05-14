@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
     return (
-        <div style={{backgroundColor: '#f9f9f9'}}>
+        <div style={{backgroundColor:'#F9F9F9'}}>
             <Router>
                 <Routes>
                     <Route path="/" element={<Home />} />

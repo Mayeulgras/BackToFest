@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaLinkedin, FaArrowDown } from 'react-icons/fa';
-import { Link as ScrollLink } from 'react-scroll';
 import bannerImage from '../images/Ecogest.png';
 import { Link, useLocation } from 'react-router-dom';
 

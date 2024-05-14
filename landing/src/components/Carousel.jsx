@@ -5,23 +5,32 @@ import Image3 from '../images/Slide3.png';
 import Image4 from '../images/Slide4.png';
 import Image5 from '../images/Slide5.png';
 
+const styles = {
+    carousel: {
+        marginTop: '30px',
+    },
+    image: {
+        width: '100%',
+    },
+};
+
 function MyCarousel() {
   return (
-    <Carousel style={{marginTop: '30px'}}> 
+    <Carousel style={styles.carousel}> 
       <Carousel.Item>
-        <img style={{width: '100%'}} src={Image1} alt="First slide" />
+        <img style={styles.image} src={Image1} alt="First slide" />
       </Carousel.Item>
       <Carousel.Item>
-        <img style={{width: '100%'}} src={Image2} alt="Second slide" />
+        <img style={styles.image} src={Image2} alt="Second slide" />
       </Carousel.Item>
       <Carousel.Item>
-        <img style={{width: '100%'}} src={Image3} alt="Third slide" />
+        <img style={styles.image} src={Image3} alt="Third slide" />
       </Carousel.Item>
       <Carousel.Item>
-        <img style={{width: '100%'}} src={Image4} alt="Forth slide" />
+        <img style={styles.image} src={Image4} alt="Forth slide" />
       </Carousel.Item>
       <Carousel.Item>
-        <img style={{width: '100%'}} src={Image5} alt="Fifth slide" />
+        <img style={styles.image} src={Image5} alt="Fifth slide" />
       </Carousel.Item>
     </Carousel>
   );
