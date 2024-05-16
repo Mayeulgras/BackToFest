@@ -9,8 +9,9 @@ import Av3 from '../components/Av3';
 import Av4 from '../components/Av4';
 import Av5 from '../components/Av5';
 import Contact from '../components/Contact';
-import Bouton from '../components/Bouton';
+import BoutonNousContacter from '../components/BoutonNousContacter';
 import Footer from '../components/Footer';
+import BanEco from '../components/BanEco';
 
 const Home = () => {
     return (
@@ -25,8 +26,9 @@ const Home = () => {
             <Av3 />
             <Av4 />
             <Av5 />
+            <BanEco />
             <Contact />
-            <Bouton />
+            <BoutonNousContacter />
             <Footer />
         </div>
     );

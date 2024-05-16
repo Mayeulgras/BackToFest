@@ -16,7 +16,7 @@ const styles = {
         justifyContent: 'center',
         height: '10%',
         textAlign: 'center',
-        marginTop: '3%',
+        marginTop: '4%',
         padding: '0 10%',
     },
     title: {
@@ -30,7 +30,7 @@ const styles = {
         justifyContent: 'space-around',
         width: '100%',
         marginTop: '2%',
-        marginBottom: '2%',
+        marginBottom: '3%',
     },
     image: {
         width: isDesktopOrLaptop ? '10%' : '14%',

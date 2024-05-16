@@ -13,6 +13,7 @@ const styles = {
         textAlign: 'center',
         marginTop: '4%',
         padding: '0 10%',
+        marginBottom: '4%', 
     },
     title: {
         fontSize: isDesktopOrLaptop ? '3vw' : '5vw',

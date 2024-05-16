@@ -7,9 +7,9 @@ const Contact = () => {
     return (
         <div>
             <Header2 />
-            <div style={{height: '40px'}} />
+            <div style={{height: '3vw'}} />
             <Devis />
-            <div style={{height: '40px'}} />
+            <div style={{height: '3vw'}} />
             <Footer />
         </div>
     );

@@ -26,7 +26,7 @@ const styles = {
 
     return (
         <div style={styles.container}>
-            <h1 style={styles.title}>Contactez nous !</h1>
+            <h1 style={styles.title}>Rencontrons nous !</h1>
             <p style={styles.text}>
             Nous sommes impatients de vous rencontrer et de discuter de la manière dont Ecogest peut répondre à vos besoins lors de votre prochain festival. 
             Contactez-nous dès aujourd'hui pour en savoir plus sur notre solution et commençons à construire un avenir plus vert ensemble !

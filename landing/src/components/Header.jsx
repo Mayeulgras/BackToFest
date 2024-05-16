@@ -48,6 +48,7 @@ const styles = {
     contactIcon: {
         fontSize: isDesktopOrLaptop ? '1.3vw' : '2.6vw',
         marginRight: '10px',
+        marginBottom: '7px',
     },
     contactText: {
         fontSize: isDesktopOrLaptop ? '1.3vw' : '2.6vw',
