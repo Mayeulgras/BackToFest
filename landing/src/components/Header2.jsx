@@ -37,7 +37,7 @@ const styles = {
         width: isDesktopOrLaptop ? '30vw' : '35vw',
         maxWidth: '600px',
         marginTop: '30px',
-        marginLeft: '-17.8%',
+        marginLeft: '-13%',
     },
     backButton: {
         width: isDesktopOrLaptop ? '30vw' : '35vw',
