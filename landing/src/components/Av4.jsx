@@ -31,7 +31,7 @@ const styles = {
             <img src={BarImage} alt="Bar" style={styles.image} />
             <div style={styles.textContainer}>
                 <p style={styles.text}>Comment cela fonctionne ? Nous vous passons nos stocks de gobelets et barquettes réutilisables que vous vendrez dans
-                le prix du billet 2.50€ le kit. Chaque festivalier ira chercher son kit dans les zones de restaurations et payera 3€ de consigne.
+                le prix du billet 2€ le kit. Chaque festivalier ira chercher son kit dans les zones de restaurations et payera 3€ de consigne.
                 Si son gobelet ou sa barquette est sale, il pourra en avoir des propres gratuitement.</p>
             </div>
         </div>
